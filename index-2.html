@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Library</title>
+  </head>
+
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    "
+  >
+    <!-- HEADER -->
+    <header
+      style="background: #333; color: white; padding: 20px; text-align: center"
+    >
+      <h1 style="margin: 0; color: lightblue">Simple Library</h1>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav style="background: #555; padding: 10px; text-align: center">
+      <a
+        href="#books"
+        style="color: white; margin: 0 15px; text-decoration: none"
+        >Books</a
+      >
+      <a
+        href="#authors"
+        style="color: white; margin: 0 15px; text-decoration: none"
+        >Authors</a
+      >
+      <a
+        href="#contact"
+        style="color: white; margin: 0 15px; text-decoration: none"
+        >Contact</a
+      >
+    </nav>
+
+    <!-- BOOKS SECTION -->
+    <section id="books" style="padding: 20px">
+      <h2 style="color: green">Books</h2>
+
+      <!-- BOOK 1 -->
+      <div
+        style="
+          background: white;
+          padding: 15px;
+          margin-bottom: 15px;
+          border-radius: 5px;
+        "
+      >
+        <h2 style="color: darkgreen">The Endless Ocean</h2>
+        <img
+          src="oceanBook.jpeg"
+          width="150"
+          style="border-radius: 10px; margin-bottom: 10px"
+        />
+        <p>
+          A peaceful exploration of the open sea and the mysteries beneath the
+          waves.
+        </p>
+        <p>Author: <a href="#authors" style="color: blue">Alex Booky</a></p>
+      </div>
+
+      <!-- BOOK 2 -->
+      <div
+        style="
+          background: white;
+          padding: 15px;
+          margin-bottom: 15px;
+          border-radius: 5px;
+        "
+      >
+        <h2 style="color: darkgreen">Shadows of the Library</h2>
+        <img
+          src="Library.jpeg"
+          width="150"
+          style="border-radius: 10px; margin-bottom: 10px"
+        />
+        <p>
+          A mysterious tale set inside a haunted library filled with secrets.
+        </p>
+        <p>Author: <a href="#authors" style="color: blue">Taylor Story</a></p>
+      </div>
+
+      <!-- BOOK 3 -->
+      <div
+        style="
+          background: white;
+          padding: 15px;
+          margin-bottom: 15px;
+          border-radius: 5px;
+        "
+      >
+        <h2 style="color: darkgreen">Coding the Future</h2>
+        <img
+          src="HTML.jpeg"
+          width="150"
+          style="border-radius: 10px; margin-bottom: 10px"
+        />
+        <p>
+          An introduction to programming and why coding skills matter in modern
+          tech.
+        </p>
+        <p>Author: <a href="#authors" style="color: blue">Jamie Paper</a></p>
+      </div>
+    </section>
+
+    <!-- AUTHORS SECTION -->
+    <section id="authors" style="padding: 20px; background: #e9f5ff">
+      <h2 style="color: #003366">Authors</h2>
+
+      <!-- AUTHOR 1 -->
+      <div
+        style="
+          background: white;
+          padding: 15px;
+          margin-bottom: 15px;
+          border-radius: 5px;
+        "
+      >
+        <h3>Alex Booky</h3>
+        <img
+          src="Man.jpeg"
+          width="150"
+          style="border-radius: 50%; margin-bottom: 10px"
+        />
+        <p>A passionate storyteller who writes about nature and exploration.</p>
+      </div>
+
+      <!-- AUTHOR 2 -->
+      <div
+        style="
+          background: white;
+          padding: 15px;
+          margin-bottom: 15px;
+          border-radius: 5px;
+        "
+      >
+        <h3>Taylor Story</h3>
+        <img
+          src="/Taylor.jpeg"
+          width="150"
+          style="border-radius: 50%; margin-bottom: 10px"
+        />
+        <p>Known for creating dark, atmospheric stories full of mystery.</p>
+      </div>
+
+      <!-- AUTHOR 3 -->
+      <div
+        style="
+          background: white;
+          padding: 15px;
+          margin-bottom: 15px;
+          border-radius: 5px;
+        "
+      >
+        <h3>Jamie Paper</h3>
+        <img
+          src="Jamie.jpeg"
+          width="150"
+          style="border-radius: 50%; margin-bottom: 10px"
+        />
+        <p>A technology educator who inspires new coders around the world.</p>
+      </div>
+    </section>
+
+    <!-- BOOK DETAILS TABLE -->
+    <section style="padding: 20px">
+      <h2 style="color: #8b0000">Book Details</h2>
+
+      <table
+        border="1"
+        style="width: 100%; border-collapse: collapse; background: white"
+      >
+        <tr style="background: #ddd">
+          <th style="padding: 8px">Title</th>
+          <th style="padding: 8px">Author</th>
+          <th style="padding: 8px">Year</th>
+          <th style="padding: 8px">Genre</th>
+          <th style="padding: 8px">Available</th>
+        </tr>
+
+        <tr>
+          <td style="padding: 8px">The Endless Ocean</td>
+          <td style="padding: 8px">Alex Booky</td>
+          <td style="padding: 8px">2020</td>
+          <td style="padding: 8px">Adventure</td>
+          <td style="padding: 8px">Yes</td>
+        </tr>
+
+        <tr>
+          <td style="padding: 8px">Shadows of the Library</td>
+          <td style="padding: 8px">Taylor Story</td>
+          <td style="padding: 8px">2021</td>
+          <td style="padding: 8px">Mystery</td>
+          <td style="padding: 8px">No</td>
+        </tr>
+
+        <tr>
+          <td style="padding: 8px">Coding the Future</td>
+          <td style="padding: 8px">Jamie Paper</td>
+          <td style="padding: 8px">2024</td>
+          <td style="padding: 8px">Education</td>
+          <td style="padding: 8px">Yes</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section id="video" style="padding: 20px; background: #f0fff0">
+      <h2 style="color: #006400">Library Tour Video</h2>
+
+      <iframe
+        width="420"
+        height="236"
+        src="https://www.youtube.com/embed/oh8zaHusC90"
+        title="Library Tour"
+        style="border: 2px solid #006400; border-radius: 5px"
+        allowfullscreen
+      >
+      </iframe>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact" style="padding: 20px">
+      <h2 style="color: #00008b">Contact & Book Request</h2>
+
+      <form
+        style="
+          background: white;
+          padding: 15px;
+          border-radius: 5px;
+          max-width: 400px;
+        "
+      >
+        <input
+          type="text"
+          placeholder="First Name"
+          style="width: 100%; padding: 8px; margin-bottom: 10px"
+        /><br />
+
+        <input
+          type="text"
+          placeholder="Last Name"
+          style="width: 100%; padding: 8px; margin-bottom: 10px"
+        /><br />
+
+        <input
+          type="email"
+          placeholder="Email"
+          style="width: 100%; padding: 8px; margin-bottom: 10px"
+        /><br />
+
+        <textarea
+          placeholder="Book Request"
+          style="width: 100%; padding: 8px; height: 80px; margin-bottom: 10px"
+        ></textarea
+        ><br />
+
+        <button
+          type="submit"
+          style="
+            background: #00008b;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+          "
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer
+      style="background: #333; color: white; text-align: center; padding: 10px"
+    >
+      <p>&copy; 2026 Simple Library | Contact: info@library.com</p>
+    </footer>
+  </body>
+</html>
